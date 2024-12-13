@@ -5,8 +5,10 @@
 //  Created by Hammad on 12/12/2024.
 //
 
-import UIKit
+import Foundation
+import UserNotifications
 
+@available(macOS 10.14, *)
 class Notification {
     
     func scheduleNotification(title: String, body: String) {
